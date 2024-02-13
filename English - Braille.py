@@ -34,7 +34,7 @@ def main():
         print("2. Braille → English")
         print("3. Exit")
         time.sleep(1)
-        choice = input("Enter your choice: ")
+        choice = input("Input your choice: ")
 
         if choice == '1':
             text = input("Enter English text: ")
@@ -47,7 +47,7 @@ def main():
         elif choice == '3':
             break
         else:
-            print("Invalid choice. Please enter 1, 2, or 3.")
+            print("Invalid choice: please input 1, 2, or 3.")
         time.sleep(1)
         answer = input("Would you like to use the translator again? (yes/no): ")
         if answer.lower() != 'yes':
